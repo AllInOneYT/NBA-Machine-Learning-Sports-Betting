@@ -7,9 +7,9 @@ from datetime import date, datetime, timedelta
 
 from tqdm import tqdm
 
-from Utils.tools import get_json_data, to_data_frame
 
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
+from Utils.tools import get_json_data, to_data_frame
 
 url = 'https://stats.nba.com/stats/' \
       'leaguedashteamstats?Conference=&' \
